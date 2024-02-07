@@ -7,3 +7,9 @@ This project involves using a Support Vector Machine (SVM) Classifier to classif
 - **Data Preprocessing**: Steps to load and preprocess the CIFAR-10 dataset.
 - **SVM Implementation**: Implementation of the SVM classifier, including hyperparameter tuning.
 - **Evaluation**: Evaluation metrics to measure the model's performance.
+
+## Results
+- The identification of optimal SVC parameters for color and B/W images, enabling the fine-tuning of our classifiers.
+- A comparative analysis of F1 scores between color and B/W CIFAR datasets, offering insights into the impact of color information on model performance.
+
+Analysis suggests that color information plays a significant role in the classification accuracy of SVM models on the CIFAR-10 dataset.
