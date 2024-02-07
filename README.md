@@ -11,9 +11,10 @@
 This project involves using a Support Vector Machine (SVM) Classifier to classify images from the CIFAR-10 dataset consisting of 60,000 32x32 color images in 10 classes, with 6,000 images per class. The goal is to classify these images into the correct categories. In this project, I've used the SVM classifier to perform this classification task and compare their performance on color and grayscale versions of the CIFAR-10 dataset and to explore various techniques related to SVM, such as kernel choice and hyperparameter tuning.
 
 ## Features
-- **Data Preprocessing**: Steps to load and preprocess the CIFAR-10 dataset.
-- **SVM Implementation**: Implementation of the SVM classifier, including hyperparameter tuning.
-- **Evaluation**: Evaluation metrics to measure the model's performance.
+- **Data Loading**: Functions to load CIFAR-10 batches and preprocess the data.
+- **Model Training**: Training SVM classifiers using GridSearchCV to find the best hyperparameters.
+- **Evaluation**: Evaluating model performance using F1 score and classification reports.
+- **Analysis**: Comparing the performance of models trained on color and grayscale CIFAR batches and analyzing the results.
 
 ## Results
 - **Optimal SVC Parameters Identified**: For both the color and B/W images, the project determines the best SVC parameters, enabling the enhancement of classifier performance.
