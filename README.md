@@ -9,7 +9,7 @@ This project involves using a Support Vector Machine (SVM) Classifier to classif
 - **Evaluation**: Evaluation metrics to measure the model's performance.
 
 ## Results
-- The identification of optimal SVC parameters for color and B/W images, enabling the fine-tuning of our classifiers.
-- A comparative analysis of F1 scores between color and B/W CIFAR datasets, offering insights into the impact of color information on model performance.
+- **Optimal SVC Parameters Identified**: For both the color and B/W images, the project determines the best SVC parameters, enabling the enhancement of classifier performance.
+- **Color vs. B/W CIFAR Dataset Analysis**: A comparative study of F1 scores between the color and B/W CIFAR datasets reveals significant findings. Notably, the models trained on the color dataset consistently demonstrated better F1 scores compared to those trained on the B/W dataset. This outcome underscores the importance of color information in improving the classification accuracy and overall model performance.
 
-The color information plays a significant role in the classification accuracy of SVM models on the CIFAR-10 dataset.
+This enhanced performance on the color dataset suggests that color features play a crucial role in the effective classification of images.
