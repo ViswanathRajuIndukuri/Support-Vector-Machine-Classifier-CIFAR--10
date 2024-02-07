@@ -8,7 +8,7 @@
 [![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)](https://www.anaconda.com)
 
 ## Overview
-This project involves using a Support Vector Machine (SVM) Classifier to classify images from the CIFAR-10 dataset. The objective is to demonstrate the effectiveness of SVMs in image classification tasks and to explore various techniques related to SVM, such as kernel choice and hyperparameter tuning.
+This project involves using a Support Vector Machine (SVM) Classifier to classify images from the CIFAR-10 dataset consisting of 60,000 32x32 color images in 10 classes, with 6,000 images per class. The goal is to classify these images into the correct categories. In this project, I've used the SVM classifier to perform this classification task and compare their performance on color and grayscale versions of the CIFAR-10 dataset and to explore various techniques related to SVM, such as kernel choice and hyperparameter tuning.
 
 ## Features
 - **Data Preprocessing**: Steps to load and preprocess the CIFAR-10 dataset.
