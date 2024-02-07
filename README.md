@@ -5,5 +5,5 @@ This project involves using a Support Vector Machine (SVM) Classifier to classif
 
 ## Features
 - **Data Preprocessing**: Steps to load and preprocess the CIFAR-10 dataset.
-- **SVM Implementation**: Implementation details of the SVM classifier, including hyperparameter tuning.
+- **SVM Implementation**: Implementation of the SVM classifier, including hyperparameter tuning.
 - **Evaluation**: Evaluation metrics to measure the model's performance.
